@@ -14,6 +14,10 @@
   src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }
 
+body {
+  background-color: #aaaaaa55;
+}
+
 /* Header */
 
 header {
@@ -68,10 +72,12 @@ header button {
   color: white;
   background-color: black;
   border: 1px solid white;
+  margin-right: 4.5rem;
 }
 
 header img {
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
+  margin-left: 4.5rem;
 }
 
 /* Section 1 */
@@ -79,9 +85,168 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  text-align: left;
   background-color: black;
   color: white;
   font-family: "Inter";
   font-size: 8em;
+  padding: 10rem 0;
+}
+
+.text-bold p {
+  margin-left: 11rem;
+}
+
+/* Section2 */
+.facts {
+  height: 60vh;
+  background-color: black;
+  background-image: url(../img/map.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.facts p:nth-last-of-type(even) {
+  font-family: "Work Sans";
+  font-size: 1.1em;
+  margin-bottom: 1rem;
+  margin-left: 11rem;
+}
+.facts p:nth-last-of-type(odd) {
+  font-family: "Inter";
+  font-size: 8em;
+  margin-bottom: 2rem;
+  margin-left: 11rem;
+}
+
+/* Section 3 */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(7/ 1fr);
+  grid-template-rows: repeat(8/ 1fr);
+  grid-area: "";
+}
+
+/* Section 4 */
+.goldenBear {
+  background-color: black;
+  color: white;
+  height: 90vh;
+}
+
+.bearWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 11rem;
+  gap: 10rem;
+}
+
+.bearWrapper div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.bearWrapper div:nth-of-type(1) p:nth-of-type(1) {
+  font-family: "Work Sans";
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.bearWrapper div:nth-of-type(1) p:nth-of-type(2) {
+  font-family: "Inter";
+  font-size: 7em;
+}
+
+.artistWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-top: 6rem;
+}
+
+.artistWrapper p:nth-of-type(1) {
+  font-family: "Inter";
+  font-size: 2.1em;
+  margin-bottom: 1.5em;
+}
+
+.artistWrapper p:nth-of-type(2) {
+  font-family: "Work Sans";
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.goldenBear_image {
+  display: flex;
+  justify-content: center;
+}
+.goldenBear_image img:nth-of-type(1) {
+  height: 60vh;
+  position: relative;
+  top: 100px;
+}
+
+.goldenBear_image img:nth-of-type(2) {
+  height: 40vh;
+  position: relative;
+  top: 220px;
+  right: 50px;
+}
+/* Section 5 */
+
+.animationCircle {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  height: 30vh;
+}
+
+.animationCircle img {
+  position: relative;
+  left: 120px;
+  bottom: 100px;
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Section 6 */
+
+.poppyBear {
+  height: 100vh;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.poppyBear_image {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+.poppyBear_image img:nth-of-type(1) {
+  height: 40vh;
+  position: relative;
+  top: 120px;
+  left: 70px;
+  z-index: 1;
+}
+
+.poppyBear_image img:nth-of-type(2) {
+  height: 60vh;
+  position: relative;
 }
