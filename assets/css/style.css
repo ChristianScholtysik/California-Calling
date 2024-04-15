@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+/* Header */
+
+header {
+  height: 100vh;
+
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25em;
+}
+
+header p {
+  font-family: "Work Sans";
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+}
+
+header h1:nth-of-type(1) {
+  font-family: "Inter";
+  font-size: 8em;
+  color: white;
+  word-spacing: 1.5em;
+  text-transform: uppercase;
+  border: 1px solid red;
+}
+
+header h1:nth-of-type(2) {
+  font-family: "Inter";
+  font-size: 8em;
+  color: black;
+  padding: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 #ffffff, -3px 3px 0 #ffffff, -3px -3px #ffffff,
+    3px -3px 0 #ffffff;
+  border: 1px solid #ff0000;
+}
+
+header div:nth-of-type(2) {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+header button {
+  font-size: 1.5em;
+  padding: 1rem 3rem;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+header img {
+  padding: 1rem 3rem;
+}
+
+/* Section 1 */
+.text-bold {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+  font-size: 8em;
+}
