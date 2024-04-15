@@ -1,12 +1,13 @@
 # California Calling
 
-Live demo [_here_](https://christianscholtysik.github.io/The-Design-Shop/).
+Live demo [_here_](https://christianscholtysik.github.io/California-Calling/).
 
 ## Table of Contents
 
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
+  ---not finished-----
 
 ## General Information
 
@@ -19,4 +20,4 @@ Live demo [_here_](https://christianscholtysik.github.io/The-Design-Shop/).
 
 ## Screenshots
 
-![Example screenshot](./assets/img/The-Design-Shop.png)
+![Example screenshot](./assets/img/Californa-Calling.png)
