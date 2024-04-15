@@ -259,13 +259,13 @@ main > .imageSection .imgSectionImg7 {
   display: flex;
   justify-content: flex-end;
   background-color: white;
-  height: 30vh;
+  height: 60vh;
 }
 
 .animationCircle img {
   position: relative;
-  left: 120px;
-  bottom: 100px;
+  left: 220px;
+  bottom: 180px;
   animation: move 10s linear infinite;
 }
 
