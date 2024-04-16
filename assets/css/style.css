@@ -95,7 +95,7 @@ header img {
   margin-left: 11rem;
 }
 
-/* Section2 */
+/* Section2 Last year*/
 .facts {
   height: 60vh;
   background-color: black;
@@ -118,7 +118,7 @@ header img {
   margin-left: 11rem;
 }
 
-/* Section 3 */
+/* Section3 Image gallery */
 main > .imageSection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -134,7 +134,7 @@ main > .imageSection .imgSectionImg1 {
   transform: translateY(-10vh);
 }
 main > .imageSection .imgSectionImg2 {
-  width: 20vw;
+  width: 18vw;
   grid-column: 1/2;
   grid-row: 2/3;
   transform: translateX(4vw);
@@ -142,19 +142,19 @@ main > .imageSection .imgSectionImg2 {
 main > .imageSection .imgSectionText1 {
   grid-column: 2/3;
   grid-row: 3/4;
-  transform: translateY(-10vh);
+  transform: translateY(-8vh);
   width: 38vw;
 }
 main > .imageSection .imgSectionText1 h2 {
   font-family: "Inter";
   font-size: 6rem;
-  margin-bottom: 2vh;
+  margin-bottom: 2.2vh;
 }
 main > .imageSection .imgSectionImg3 {
   width: 20vw;
   grid-column: 3/4;
   grid-row: 4/5;
-  transform: translateY(-20vh);
+  transform: translateY(-16vh);
   margin: 0 0 0 auto;
 }
 main > .imageSection .imgSectionImg4 {
@@ -187,7 +187,7 @@ main > .imageSection .imgSectionImg7 {
   font-size: 2rem;
 }
 
-/* Section 4 */
+/* Section 4 Golden Bear*/
 .goldenBear {
   background-color: black;
   color: white;
@@ -253,9 +253,10 @@ main > .imageSection .imgSectionImg7 {
   top: 420px;
   right: 50px;
 }
-/* Section 5 */
+/* Section 5 Animation Circle */
 
 .animationCircle {
+  overflow-x: hidden;
   display: flex;
   justify-content: flex-end;
   background-color: white;
@@ -377,32 +378,30 @@ footer button {
   margin: 1rem 0;
 }
 
-.ngo {
+/* .ngo {
   display: flex;
   justify-content: flex-end;
   height: 4vh;
   position: relative;
   top: -180px;
   right: 13rem;
-}
+} */
 
 footer {
   overflow-x: hidden;
   background: #000;
   color: #fff;
-  height: 80vh;
-  border: #ff0000 solid 3px;
 }
 footer .footerBanner {
   overflow-x: hidden;
   background: #fff;
   color: #000;
   width: 90vw;
-  transform: rotate(40deg) translateY(450%);
+  transform: rotate(40deg) translateY(460%);
   position: relative;
   left: 700px;
   margin-top: 1vh;
-  border: #f21cee solid 3px;
+  /* border: #f21cee solid 3px; */
 }
 footer .footerBanner .footerBannerAnimation {
   font-family: "Inter";
@@ -424,11 +423,12 @@ footer .footerBanner .footerBannerAnimation span {
   }
 }
 footer .footerTextBlock {
-  padding: 10vh 5vw;
+  padding: 1vh 2vw;
   margin-bottom: 1vh;
-  width: 45vw;
+  width: 30vw;
+  /* border: #00ff1a solid 3px; */
 }
-footer .footerTextBlock .smallFont {
+footer .footerTextBlock .smallText {
   font-family: "Inter";
   font-size: 2rem;
   margin-bottom: 2vh;
@@ -438,7 +438,8 @@ footer nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 5vh 15vw 1vh 5vw;
+  padding: 8vh 25vw 1vh 2vw;
+  /* border: #d4ff00 solid 3px; */
 }
 footer nav .socialMediaLogo div img {
   width: 40px;
@@ -447,6 +448,6 @@ footer nav .socialMediaLogo div img {
 footer nav .socialMediaLogo p {
   margin: 2vh 0;
 }
-footer nav .ngoLogo img {
+footer nav .ngo img {
   width: 7vw;
 }
