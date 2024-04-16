@@ -7,7 +7,6 @@ Live demo [_here_](https://christianscholtysik.github.io/California-Calling/).
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
-  ---not finished-----
 
 ## General Information
 
